@@ -1,0 +1,9 @@
+.task-tile .task-content {
+  background: #f5f6f9;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+.task-content .taskTile-body {
+  margin: 15px 0;
+}
