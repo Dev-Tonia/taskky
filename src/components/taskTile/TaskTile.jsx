@@ -1,6 +1,6 @@
 import "./taskTile.css";
 const TaskTile = (props) => {
-  const task = props.task;
+  const { task, removeTask } = props;
 
   return (
     <div className="task-tile">
@@ -11,7 +11,7 @@ const TaskTile = (props) => {
           <p>
             <span>Due on:</span> {task.date}
           </p>
-          <button className="btn" onClick={() => props.removeTask(task.id)}>
+          <button className="btn" onClick={() => removeTask(task.id)}>
             Delete
           </button>
         </div>
